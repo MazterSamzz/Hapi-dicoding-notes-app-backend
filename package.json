@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "nodemon ./src/server.js",
-		"lint": "eslint ./src"
+		"lint": "eslint ./src --fix"
 	},
 	"keywords": [],
 	"author": "",
@@ -17,6 +17,7 @@
 		"nodemon": "^2.0.20"
 	},
 	"dependencies": {
-		"@hapi/hapi": "^21.1.0"
+		"@hapi/hapi": "^21.1.0",
+		"nanoid": "^4.0.0"
 	}
 }
